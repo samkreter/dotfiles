@@ -49,7 +49,19 @@ $ZSH/homebrew/install.sh 2>&1
 # Upgrade homebrew
 echo "› brew update"
 brew update
+#brew cask update
+brew upgrade
+brew cleanup
+brew cask cleanup
 
 # Install software
-echo "› $ZSH/script/install"
+echo "› Installing $ZSH/script/install"
 $ZSH/script/install
+
+# Update gems
+gem update && gem update --system 2>&1
+
+# Update node
+echo "› node update"
+npm -g update yarn
+yarn global upgrade --latest

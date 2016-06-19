@@ -9,6 +9,8 @@ set -e
 
 echo ''
 
+sudo -v
+
 info () {
   printf "\r  [ \033[00;34m..\033[0m ] $1\n"
 }
@@ -139,6 +141,7 @@ install_dotfiles () {
 
 setup_gitconfig
 install_dotfiles
+yarn config set prefix /usr/local/
 
 # If we're on a Mac, let's install and setup homebrew.
 if [ "$(uname -s)" == "Darwin" ]

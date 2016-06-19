@@ -1,4 +1,6 @@
-if test ! $(which spoof)
+if test ! $(which yarn)
 then
-  sudo npm install spoof -g
+  npm install -g yarn
+  yarn global add create-react-app npm webpack yo
 fi
+

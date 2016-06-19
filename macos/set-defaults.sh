@@ -39,3 +39,14 @@ defaults write com.apple.Safari IncludeDevelopMenu -bool true
 defaults write com.apple.Safari WebKitDeveloperExtrasEnabledPreferenceKey -bool true
 defaults write com.apple.Safari "com.apple.Safari.ContentPageGroupIdentifier.WebKit2DeveloperExtrasEnabled" -bool true
 defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
+
+# Save to disk (not to iCloud) by default
+defaults write NSGlobalDomain NSDocumentSaveNewDocumentsToCloud -bool false
+
+# Enable subpixel font rendering on non-Apple LCDs. 
+defaults write NSGlobalDomain AppleFontSmoothing -int 2
+
+# Avoid creating .DS_Store files on network volumes. 
+defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
+
+
