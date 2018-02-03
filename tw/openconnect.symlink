@@ -1,6 +1,0 @@
-authgroup=*****VPN
-user=vndtgamble
-no-cert-check
-script=/usr/local/sbin/vpnc
-background
-passwd-on-stdin
