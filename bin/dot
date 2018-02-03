@@ -63,5 +63,7 @@ gem update && gem update --system 2>&1
 
 # Update node
 echo "› node update"
+npm install npm@latest -g
 npm -g update yarn
 yarn global upgrade --latest
+npm -g update
