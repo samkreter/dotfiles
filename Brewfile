@@ -25,7 +25,7 @@ brew 'rbenv'
 brew 'sbt'
 brew 'scala'
 brew 'universal-ctags', args: ['HEAD']
-brew 'vim', args: ['with-lua', 'with-override-system-vi', 'with-python3', 'HEAD']
+brew 'vim', args: ['with-lua', 'with-override-system-vi', 'with-python3']
 brew 'wget'
 brew 'zsh'
 
