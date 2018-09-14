@@ -1,4 +1,4 @@
-RUBY_VERSION=2.4.2
+RUBY_VERSION=2.5.1
 
 if [[ ! -x "$(which rbenv)" ]]
 then
