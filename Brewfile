@@ -13,6 +13,7 @@ brew 'go', args: ['--cross-compile-common']
 brew 'gradle'
 brew 'grc'
 brew 'imagemagick'
+brew 'jenv'
 brew 'jq'
 brew 'neovim'
 brew 'node'
