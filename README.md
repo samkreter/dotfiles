@@ -58,3 +58,4 @@ There's a few special files in the hierarchy.
 
 * evaluate vi customizations
 * https://github.com/luan/vimfiles/wiki/Luan's-Vim-Cheat-Sheet
+* https://htr3n.github.io/2018/07/faster-zsh/

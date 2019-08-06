@@ -1,5 +1,5 @@
 # export LSCOLORS="exfxcxdxbxegedabagacad"
-# export CLICOLOR=true
+export CLICOLOR=true
 
 LS_COLORS="ow=01;36;40" && export LS_COLORS
 
