@@ -34,12 +34,6 @@ setup_gitconfig () {
   then
     info 'setup gitconfig'
 
-    git_credential='cache'
-    if [ "$(uname -s)" == "Darwin" ]
-    then
-      git_credential='osxkeychain'
-    fi
-
     user ' - What is your github author name?'
     read -e git_authorname
     user ' - What is your github author email?'
@@ -155,7 +149,8 @@ then
   fi
 fi
 
-sudo add-apt-repository ppa:deadsnakes/ppa
+sudo add-apt-repository ppa:deadsnakes/ppa -y
+sudo add-apt-repository ppa:neovim-ppa/stable -y
 
 echo ''
-echo '  All installed!'
+echo '  all installed!'
