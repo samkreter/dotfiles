@@ -15,7 +15,9 @@ fi
 
 if test $(which rbenv)
 then
-  # Update gems
+  # Update 
+  eval "$(command rbenv init -)"
+  rbenv global $RUBY_VERSION
   echo "> updating gems"
   gem update && gem update --system 2>&1
 fi
