@@ -7,7 +7,7 @@ then
   sudo mkdir -p /usr/local/go
   sudo tar xvf go${GO_VERSION}.linux-amd64.tar.gz -C /usr/local
   rm go${GO_VERSION}.linux-amd64.tar.gz
-  source ./path.zsh
+  #nsource ./path.zsh
   # go get golang.org/x/tools/cmd/godoc
   # go get github.com/golang/lint/golint
 fi

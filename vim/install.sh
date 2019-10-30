@@ -25,4 +25,4 @@ then
 	# cd $HOME/.vim
 	# make update 
 fi
-
+echo "> completed"
