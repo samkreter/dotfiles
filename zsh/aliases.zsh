@@ -4,6 +4,7 @@ alias vi='nvim'
 alias ls='ls --color=auto'
 alias sd='eval $(ssh-agent -s) && ssh-add'
 alias bfg='java -jar /usr/local/bin/bfg.jar'
+alias myip='curl ifconfig.me'
 
 function pbcopy() {
    (cat "$@" | clip.exe)
