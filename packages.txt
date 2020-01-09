@@ -18,7 +18,6 @@ libreadline-dev
 zlib1g-dev
 libncurses5-dev
 libffi-dev
-libgdbm5
 libgdbm-dev
 zip
 jq
