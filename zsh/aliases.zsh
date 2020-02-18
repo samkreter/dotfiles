@@ -6,6 +6,8 @@ alias sd='eval $(ssh-agent -s) && ssh-add'
 alias bfg='java -jar /usr/local/bin/bfg.jar'
 alias myip='curl ifconfig.me'
 
+alias fixtime='sudo hwclock --hctosys'
+
 function pbcopy() {
    (cat "$@" | clip.exe)
 }
