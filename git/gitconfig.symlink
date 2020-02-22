@@ -57,3 +57,6 @@
 	process = git-lfs filter-process
 [user]
 	signingkey = 83F3045C24AD6DB7
+	email = Thomas.Gamble@microsoft.com
+[url "msazure@vs-ssh.visualstudio.com:v3/msazure/CloudNativeCompute"]
+	insteadOf = https://dev.azure.com/msazure/CloudNativeCompute/_git
