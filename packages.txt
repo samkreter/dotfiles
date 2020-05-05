@@ -6,7 +6,6 @@ software-properties-common
 git
 neovim
 python3.7
-python-pip
 python3-pip
 default-jdk
 autoconf

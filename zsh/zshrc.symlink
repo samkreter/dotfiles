@@ -1,8 +1,5 @@
 # shortcut to this dotfiles path is $ZSH
 export ZSH=$HOME/.dotfiles
-cd $HOME
-
-#export GO_VERSION=1.13.8
 
 #Stash your environment variables in ~/.localrc. This means they'll stay out
 # of your main dotfiles repository (which may be public, like this one), but
@@ -53,12 +50,8 @@ zle -N down-line-or-beginning-search
 bindkey "^[[A" up-line-or-beginning-search # Up
 bindkey "^[[B" down-line-or-beginning-search # Down
 
-# keychain id_rsa
-#. ~/.keychain/`uname -n`-sh
 
-# source $HOME/.gvm/scripts/gvm
-# gvm use go${GO_VERSION}
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="~/.sdkman"
-[[ -s "~/.sdkman/bin/sdkman-init.sh" ]] && source "~/.sdkman/bin/sdkman-init.sh"
+# export SDKMAN_DIR="~/.sdkman"
+# [[ -s "~/.sdkman/bin/sdkman-init.sh" ]] && source "~/.sdkman/bin/sdkman-init.sh"

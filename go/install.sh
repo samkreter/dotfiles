@@ -1,4 +1,4 @@
-GO_VERSION=1.13.8
+GO_VERSION=1.14.2
 
 if test ! $(which go)
 then

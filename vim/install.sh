@@ -1,6 +1,6 @@
 echo "> validating vim install"
 
-NVIM_VERSION=0.3.8
+NVIM_VERSION=0.4.3
 
 if [ ! -d ~/.vim ]
   # then
@@ -13,7 +13,7 @@ then
 	pip install setuptools
 	pip3 install pynvim
 	pip2 install pynvim
-  git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+    git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 	vim +PluginInstall +qall
   # git clone --recursive https://github.com/jessfraz/.vim.git $HOME/.vim
 	# ln -sf $HOME/.vim/vimrc $HOME/.vimrc
