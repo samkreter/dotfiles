@@ -1,5 +1,6 @@
 apt-transport-https
 autoconf
+azure-cli
 azuredatastudio
 base-passwd
 bison
@@ -26,6 +27,7 @@ font-manager
 fonts-indic
 git
 gnome-tweaks
+gnupg
 gnupg-agent
 google-chrome-stable
 grep
@@ -67,6 +69,7 @@ linux-image-surface
 linux-libc-dev-surface
 linux-surface-secureboot-mok
 locales
+lsb-release
 minecraft-launcher
 mokutil
 ncurses-base
