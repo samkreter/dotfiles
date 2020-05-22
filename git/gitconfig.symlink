@@ -5,9 +5,6 @@
         protocol = https
 [alias]
         co = checkout
-        promote = !$ZSH/bin/git-promote
-        wtf     = !$ZSH/bin/git-wtf
-        rank-contributors = !$ZSH/bin/git-rank-contributors
         count   = !git shortlog -sn
         st = status
         di = diff
@@ -59,5 +56,4 @@
 	signingkey = 83F3045C24AD6DB7
 	email = Thomas.Gamble@microsoft.com
 [url "msazure@vs-ssh.visualstudio.com:v3/msazure/CloudNativeCompute"]
-	insteadOf = https://dev.azure.com/msazure/CloudNativeCompute/_git
 	insteadOf = https://dev.azure.com/msazure/CloudNativeCompute/_git
