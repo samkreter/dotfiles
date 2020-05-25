@@ -1,47 +1,50 @@
 cask_args appdir: '/Applications'
 
-tap 'homebrew/bundle'
-tap 'homebrew/cask'
-tap 'homebrew/cask-fonts'
-tap 'homebrew/cask-versions'
-tap 'homebrew/core'
-tap 'homebrew/services'
-tap 'universal-ctags/universal-ctags'
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-fonts"
+tap "homebrew/cask-versions"
+tap "homebrew/core"
+tap "homebrew/services"
+tap "mas-cli/tap"
+tap "universal-ctags/universal-ctags"
 
-brew 'ack'
-brew 'coreutils'
-brew 'git'
-brew 'gnupg'
-brew 'gnupg2'
-brew 'go'
-brew 'grc'
-brew 'imagemagick'
-brew 'jenv'
-brew 'jq'
-brew 'kubectl'
-brew 'mas'
-brew 'neovim'
-brew 'node'
-brew 'nvm'
-brew 'openssl'
-brew 'python'
-brew 'python3'
-brew 'ruby-build'
-brew 'readline'
-brew 'rbenv'
-brew 'sbt'
-brew 'scala'
-brew 'universal-ctags', args: ['HEAD']
-brew 'wget'
-brew 'zsh'
+brew "ack"
+brew "coreutils"
+brew "readline"
+brew "git"
+brew "gnupg"
+brew "go"
+brew "gradle"
+brew "grc"
+brew "imagemagick"
+brew "jenv"
+brew "jq"
+brew "kubernetes-cli"
+brew "mas"
+brew "neovim"
+brew "node"
+brew "nvm"
+brew "python"
+brew "ruby-build"
+brew "rbenv"
+brew "sbt"
+brew "scala"
+brew "wget"
+brew "zsh"
+brew "universal-ctags/universal-ctags/universal-ctags", args: ["HEAD"]
 
-cask 'alfred'
-cask 'bartender'
-cask 'docker'
-cask 'dropbox'
-cask 'goland'
-cask 'google-chrome'
-cask 'iterm2'
-cask 'java'
-cask 'spectacle'
-cask 'visual-studio-code'
+cask "alfred"
+cask "bartender"
+cask "docker"
+cask "dropbox"
+cask "goland"
+cask "google-chrome"
+cask "iterm2"
+cask "java"
+cask "kitty"
+cask "spectacle"
+cask "visual-studio-code"
+
+mas "1Password 7", id: 1333542190
+mas "Todoist", id: 585829637
