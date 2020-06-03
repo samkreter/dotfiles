@@ -10,13 +10,15 @@ tap "mas-cli/tap"
 tap "universal-ctags/universal-ctags"
 
 brew "ack"
-brew "coreutils"
 brew "readline"
+brew "azure-cli"
+brew "coreutils"
 brew "git"
 brew "gnupg"
 brew "go"
 brew "gradle"
 brew "grc"
+brew "helm"
 brew "imagemagick"
 brew "jenv"
 brew "jq"
@@ -42,9 +44,9 @@ cask "goland"
 cask "google-chrome"
 cask "iterm2"
 cask "java"
-cask "kitty"
 cask "spectacle"
 cask "visual-studio-code"
 
 mas "1Password 7", id: 1333542190
 mas "Todoist", id: 585829637
+mas "CleanMyMac X", id: 1339170533
