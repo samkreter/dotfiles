@@ -1,6 +1,8 @@
 export LSCOLORS="exfxcxdxbxegedabagacad"
 export CLICOLOR=true
 
+export GOPRIVATE=goms.io/aks/rp,goms.io/aks/rollout
+
 fpath=($ZSH/functions $fpath)
 
 HISTFILE=~/.zsh_history
