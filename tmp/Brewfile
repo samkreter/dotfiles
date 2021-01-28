@@ -36,24 +36,15 @@ brew "the_silver_searcher"
 brew "wget"
 brew "zsh"
 brew "universal-ctags/universal-ctags/universal-ctags", args: ["HEAD"]
-cask "alfred"
-cask "bartender"
-cask "docker"
-cask "dropbox"
-cask "goland"
-cask "google-chrome"
-cask "iterm2"
-cask "java"
+cask "alfred", args: { appdir: "/Applications" }
+cask "bartender", args: { appdir: "/Applications" }
+cask "docker", args: { appdir: "/Applications" }
+cask "dropbox", args: { appdir: "/Applications" }
+cask "goland", args: { appdir: "/Applications" }
+cask "google-chrome", args: { appdir: "/Applications" }
+cask "iterm2", args: { appdir: "/Applications" }
+cask "java", args: { appdir: "/Applications" }
 cask "microsoft-edge"
 cask "skype"
-cask "spectacle"
-cask "visual-studio-code"
-mas "1Password 7", id: 1333542190
-mas "CleanMyMac X", id: 1339170533
-mas "DaisyDisk", id: 411643860
-mas "GarageBand", id: 682658836
-mas "iMovie", id: 408981434
-mas "Keynote", id: 409183694
-mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
-mas "Todoist", id: 585829637
+cask "spectacle", args: { appdir: "/Applications" }
+cask "visual-studio-code", args: { appdir: "/Applications" }

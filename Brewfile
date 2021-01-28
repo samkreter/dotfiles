@@ -36,15 +36,12 @@ brew "wget"
 brew "zsh"
 brew "universal-ctags/universal-ctags/universal-ctags", args: ["HEAD"]
 
-cask "alfred"
-cask "bartender"
 cask "docker"
 cask "dropbox"
 cask "goland"
 cask "google-chrome"
 cask "iterm2"
 cask "java"
-cask "spectacle"
 cask "visual-studio-code"
 
 mas "1Password 7", id: 1333542190
