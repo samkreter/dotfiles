@@ -48,3 +48,12 @@ cask "microsoft-edge"
 cask "skype"
 cask "spectacle", args: { appdir: "/Applications" }
 cask "visual-studio-code", args: { appdir: "/Applications" }
+mas "1Password 7", id: 1333542190
+mas "CleanMyMac X", id: 1339170533
+mas "DaisyDisk", id: 411643860
+mas "GarageBand", id: 682658836
+mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Todoist", id: 585829637
