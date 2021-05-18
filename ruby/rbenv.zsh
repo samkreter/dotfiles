@@ -1,4 +1,4 @@
-rbenv() {
-  eval "$(command rbenv init -)"
-  rbenv "$@"
-}
+# rbenv() {
+#   eval "$(command rbenv init -)"
+#   rbenv "$@"
+# }
