@@ -1,2 +1,2 @@
 alias reload!='. ~/.zshrc'
-alias vi='nvim'
+alias updatem='git go master; git pull origin master'
