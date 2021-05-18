@@ -9,7 +9,7 @@ This was originally used on OSx, but has been converted for use on WSL.
 
 ```sh
 zsh
-git clone https://github.com/gambtho/dotfiles.git ~/.dotfiles
+git clone https://github.com/samkreter/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 script/bootstrap
 reload!

@@ -30,6 +30,7 @@
 	cm = commit -m
 	s = status
 	a = add .
+	ph = push origin head
 [color]
         diff = auto
         status = auto
