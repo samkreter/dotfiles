@@ -6,6 +6,13 @@ alias gp='git push origin HEAD'
 # Remove `+` and `-` from start of diff lines; just rely upon color.
 alias gd='git diff --color | sed "s/^\([^-+ ]*\)[-+ ]/\\1/" | less -r'
 
+
+git config --global alias.go checkout
+git config --global alias.b branch
+git config --global alias.cm 'commit -m'
+git config --global alias.s status
+git config --global alias.a 'add .'
+
 alias gc='git commit'
 alias gca='git commit -a'
 alias gco='git checkout'

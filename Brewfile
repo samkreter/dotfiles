@@ -20,7 +20,6 @@ brew "gradle"
 brew "grc"
 brew "helm"
 brew "imagemagick"
-brew "jenv"
 brew "jq"
 brew "kubernetes-cli"
 brew "mas"
@@ -37,13 +36,13 @@ brew "zsh"
 brew "universal-ctags/universal-ctags/universal-ctags", args: ["HEAD"]
 
 cask "docker"
-cask "dropbox"
-cask "goland"
+# cask "dropbox"
+# cask "goland"
 cask "google-chrome"
 cask "iterm2"
-cask "java"
+# cask "java"
 cask "visual-studio-code"
 
-mas "1Password 7", id: 1333542190
-mas "Todoist", id: 585829637
-mas "CleanMyMac X", id: 1339170533
+# mas "1Password 7", id: 1333542190
+# mas "Todoist", id: 585829637
+# mas "CleanMyMac X", id: 1339170533
