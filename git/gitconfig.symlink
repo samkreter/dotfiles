@@ -31,6 +31,7 @@
 	s = status
 	a = add .
 	ph = push origin head
+        ca = commit --amend
 [color]
         diff = auto
         status = auto

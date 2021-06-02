@@ -61,7 +61,7 @@ setopt PROMPT_SUBST
 
 # Override PROMPT if it does not use the gitprompt function
 [[ "$PROMPT" != *gitprompt* && "$RPROMPT" != *gitprompt* ]] \
-    && PROMPT='%B%40<..<%~ %b$(gitprompt)' \
+    && PROMPT='%B%60<..<%~ %b$(gitprompt)' \
     && PROMPT+='%(?.%(!.%F{white}❯%F{yellow}❯%F{red}.%F{blue}❯%F{cyan}❯%F{green})❯.%F{red}❯❯❯)%f '
 
 # Find an awk implementation
@@ -417,6 +417,6 @@ ZSH_THEME_GIT_PROMPT_UNTRACKED="…"
 ZSH_THEME_GIT_PROMPT_STASHED="%{$fg[blue]%}⚑"
 ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg_bold[green]%}✔"
 
-PROMPT='%B%40<..<%~ %b$(gitprompt)'
+PROMPT='%B%60<..<%~ %b$(gitprompt)'
 PROMPT+='%(?.%(!.%F{white}❯%F{yellow}❯%F{red}.%F{blue}❯%F{cyan}❯%F{green})❯%f.%F{red}❯❯❯%f) '
 RPROMPT=''
