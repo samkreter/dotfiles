@@ -1,1 +1,1 @@
-skip_global_compinit=1
+skip_global_compinit=1export PATH="/Users/samkreter/.ebcli-virtual-env/executables:$PATH"
